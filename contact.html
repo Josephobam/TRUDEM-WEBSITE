@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | TRUDEM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-group">
+            <img src="church logo.jpg" alt="TRUDEM Logo" class="church-logo">
+            <div class="logo-text">TRU<span>DEM</span></div>
+        </div>
+        <div class="nav-controls">
+            <div class="nav-socials">
+                <a href="https://www.facebook.com/share/1981P763vv/" target="_blank" class="fb-icon"><i class="fab fa-facebook"></i></a>
+                <a href="https://youtube.com/@trudemontheweb" target="_blank" class="yt-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu"><i class="fas fa-bars"></i></div>
+        </div>
+        <ul class="nav-links" id="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">The Founders</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="main-container">
+        <div class="premium-box">
+            <h2 class="section-title">Spiritual Inquiry</h2>
+            <form id="whatsappForm" class="church-form">
+                <input type="text" id="userName" placeholder="Full Name" required>
+                <input type="tel" id="userPhone" placeholder="Phone Number" required>
+                <textarea id="userMessage" rows="5" placeholder="Prayer Request or Testimony..." required></textarea>
+                <button type="submit" class="submit-btn">Send Message <i class="fab fa-whatsapp"></i></button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
